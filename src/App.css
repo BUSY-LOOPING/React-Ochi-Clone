@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+html, body, #root {
+    width: 100%;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Neue Montreal', serif;
+}
+
+a {
+    @apply text-white visited:text-white hover:text-white no-underline;
+}
+
+/*h1{*/
+/*    @apply text-[7.5vw] uppercase font-['Founders_Grotesk'] leading-[6vw] h-full;*/
+/*}*/
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('/src/assets/fonts/NeueMontreal-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/src/assets/fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@theme {
+
+}
+
+@layer base{
+
+
+}
+
+@layer components{
+}
+
+@layer utilities {
+}
